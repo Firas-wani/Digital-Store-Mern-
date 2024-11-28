@@ -24,37 +24,3 @@ const Categories = () => {
 };
 
 export default Categories;
-// import React from "react";
-// import { Link } from "react-router-dom";
-// import useCategory from "../hooks/useCategory";
-// import Layout from "../components/Layout/Layout";
-
-// const Categories = () => {
-//   const categories = useCategory();
-
-//   return (
-//     <Layout title={"All Categories"}>
-//       <div className="container mt-5">
-//         <h2 className="text-center mb-4">All Categories</h2>
-//         <div className="row">
-//           {categories.map((category) => (
-//             <div className="col-md-4 col-sm-6 mb-4" key={category._id}>
-//               <div className="card text-center shadow-sm">
-//                 <div className="card-body">
-//                   <Link
-//                     to={`/category/${category.slug}`}
-//                     className="btn btn-primary btn-block"
-//                   >
-//                     {category.name}
-//                   </Link>
-//                 </div>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </Layout>
-//   );
-// };
-
-// export default Categories;
